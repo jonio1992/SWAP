@@ -1,3 +1,4 @@
+git clone <- Conseguir el direcorio para trabajar en local
 git add <- aniadir todos los documentos que quieras para github
 git commit  -a -m "COMENTARIOS" <- comentarios y aceptar los cambios, hacer antes de hacer un push
 git push <-subida
