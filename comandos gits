@@ -1,0 +1,8 @@
+git add <- aniadir todos los documentos que quieras para github
+git commit  -a -m "COMENTARIOS" <- comentarios y aceptar los cambios, hacer antes de hacer un push
+git push <-subida
+
+-adiccional-
+
+git status <- ver si hay cambios
+gitg <- ver historial de cambios
