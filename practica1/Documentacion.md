@@ -16,9 +16,9 @@ Para el comienzo de este apartado, instalaremos el software VMware con el que se
 **sudo apt-get install openssh-server openssh-client**
 	
 	Para el paquete LAMP:  
- **sudo apt-get install apache2**
- **sudo apt-get install mysql-server mysql-client**
-**sudo apt-get install php7.0-mysql php7.0-curl php7.0-json php7.0-cgi  php7.0 libapache2-mod-php7**
+ **sudo apt-get install apache2**  
+ **sudo apt-get install mysql-server mysql-client**  
+**sudo apt-get install php7.0-mysql php7.0-curl php7.0-json php7.0-cgi  php7.0 libapache2-mod-php7**  
 
 Dejo un posible tutorial facilitado en el guión a seguir:
 
