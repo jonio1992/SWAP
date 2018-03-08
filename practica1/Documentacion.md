@@ -27,8 +27,8 @@ Dejo un posible tutorial facilitado en el guión a seguir:
 Una vez instalado procedemos al objetivo uno, conexión SSH:
 
 ### Nota ###  
-levantar ssh-> sudo /etc/init.d/ssh start  
-conctarse-> ssh user@ipUser  
+Levantar ssh-> sudo /etc/init.d/ssh start  
+Conctarse-> ssh user@ipUser  
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/1.png)  
 Levantando el servicio ssh de la maquina swap1 y visualizando su ip.
