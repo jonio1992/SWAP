@@ -24,4 +24,8 @@ Dejo un posible tutorial facilitado en el guión a seguir:
 [Referencia instalar LAMP] (https://www.unixmen.com/how-to-install-lamp-stack-on-ubuntu-16-04/)
 
 Una vez instalado procedemos al objetivo uno, conexión SSH:
-![/img/1.png]()
+![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/1.png)
+
+![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/2.png)
+
+![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/3.png)
