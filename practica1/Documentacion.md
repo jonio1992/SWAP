@@ -1,4 +1,5 @@
 #Practica 1 SWAP
+
 ###Preparación de las herramientas
 
 ######Autores: Antonio Carrasco Castro, Fernado Roldán Zafra
@@ -24,6 +25,10 @@ Dejo un posible tutorial facilitado en el guión a seguir:
 [Referencia instalar LAMP] (https://www.unixmen.com/how-to-install-lamp-stack-on-ubuntu-16-04/)
 
 Una vez instalado procedemos al objetivo uno, conexión SSH:
+
+###Nota
+levantar ssh-> sudo /etc/init.d/ssh start
+conctarse-> ssh user@ipUser
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/1.png)
 Levantando el servicio ssh de la maquina swap1 y visualizando su ip.
