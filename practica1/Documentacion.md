@@ -5,8 +5,8 @@
 ###### Autores: Antonio Carrasco Castro, Fernado Roldán Zafra ######  
 
 ## Objetivos ##  
-I. Acceder por ssh de una máquina a otra
-II. Acceder mediante la herramienta curl desde una máquina a la otra
+I. Acceder por ssh de una máquina a otra  
+II. Acceder mediante la herramienta curl desde una máquina a la otra  
 
 ## -Pasos previos ##  
 * **(Instalación de software y máquinas)**  
@@ -26,9 +26,9 @@ Dejo un posible tutorial facilitado en el guión a seguir:
 
 Una vez instalado procedemos al objetivo uno, conexión SSH:
 
-###Nota
+### Nota ###  
 levantar ssh-> sudo /etc/init.d/ssh start  
-conctarse-> ssh user@ipUser
+conctarse-> ssh user@ipUser  
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/1.png)  
 Levantando el servicio ssh de la maquina swap1 y visualizando su ip.
