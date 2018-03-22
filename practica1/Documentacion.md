@@ -1,4 +1,4 @@
-﻿# Practica 1 SWAP #  
+﻿# Practica 1 SWAP   
 
 ### Preparación de las herramientas
 
@@ -22,8 +22,9 @@ Para el comienzo de este apartado, instalaremos el software VMware con el que se
 
 Dejo un posible tutorial facilitado en el guión a seguir:
 
-[Referencia instalar LAMP](https://www.unixmen.com/how-to-install-lamp-stack-on-ubuntu-16-04/) 
+[Referencia instalar LAMP](https://www.unixmen.com/how-to-install-lamp-stack-on-ubuntu-16-04/)  
 
+## -Sesión 1  
 Una vez instalado procedemos al objetivo uno, conexión SSH:
 
 ### Nota ###  
