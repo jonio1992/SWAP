@@ -22,7 +22,7 @@ Para el comienzo de este apartado, instalaremos el software VMware con el que se
 
 Dejo un posible tutorial facilitado en el guión a seguir:
 
-[Referencia instalar LAMP]
+[Referencia instalar LAMP](https://www.unixmen.com/how-to-install-lamp-stack-on-ubuntu-16-04/) 
 
 Una vez instalado procedemos al objetivo uno, conexión SSH:
 
@@ -49,5 +49,3 @@ Y ahora vamos a hacer una petición a cada máquina con la opción curl.
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/5.png)  
 
 Como se ve en la imagen, se puede acceder de la máquina SWAP1 al documento contenido en SWAP2 y viceversa. Adicionalmente desde la máquina anfitrión se ha hecho la petición para comprobar la conexión de todas las máquinas.  
-
-[Referencia instalar LAMP]: https://www.unixmen.com/how-to-install-lamp-stack-on-ubuntu-16-04/)
