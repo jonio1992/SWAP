@@ -41,7 +41,6 @@ Levantando el servicio ssh de la maquina swap2 y visualizando su ip.
 Conectándonos desde el PC anfitrión a las maquinas mediante el protocolo SSH.
 
 Para el objetivo dos se va a generar un archivo .html el cual se pondrá en el directorio var/www/sesion1.  
-
 Procedemos a ver las direcciones ip de cada máquina.  
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/4.png)  
