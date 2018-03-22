@@ -1,14 +1,14 @@
 ﻿# Practica 1 SWAP #  
 
-### Preparación de las herramientas ###  
+### Preparación de las herramientas
 
-###### Autores: Antonio Carrasco Castro, Fernado Roldán Zafra ######  
+###### Autores: Antonio Carrasco Castro, Fernado Roldán Zafra  
 
-## Objetivos ##  
+## Objetivos 
 I. Acceder por ssh de una máquina a otra  
 II. Acceder mediante la herramienta curl desde una máquina a la otra  
 
-## -Pasos previos ##  
+## -Pasos previos  
 * **(Instalación de software y máquinas)**  
 Para el comienzo de este apartado, instalaremos el software VMware con el que se instalarán dos máquinas virtuales (en este caso ubuntu server 16.04.4 LTS). Necesitaremos el paquete openSSH y LAMP que como se explica en el guión se puede instalar durante la instalación. Si no se instala ningún paquete se puede hacer mediante linea de comandos una vez instalado con: 
 	
