@@ -24,16 +24,19 @@ Conectarse-> ssh user@ipUser
 
 ### Objetivo I
 
-Se van 
+Se va a copiar archivos de una maquina a otra  con el comando de ssh de la siguiente manera:  
+tar czf - directorio | ssh equipodestino 'cat > ~/tar.tgz'  
+
+Copiado de SWAP1 a SWAP2  
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/1.png)  
-
+Copiado de SWAP2 a SWAP1  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/2.png)  
-
+Muestro todo lo copiado de una maquina a la otra  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/3.png)  
 
 ### Objetivo II
-Para el clonado de archivos y directorios de una máquina a otra, usamos el comando 'rsync'.
+Para el clonado de archivos y directorios de una máquina a otra, usamos el comando 'rsync'.  
 Voy a clonar de la maquina 2 a la 1, **ATENCIÓN**, los comandos se hacen en la maquina 1.
 Se muestra un ejemplo:  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/4.png)  
@@ -55,5 +58,5 @@ ssh-copy-id "nombremaquina@ipmaquina".
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/7.png)  
 
 ### Objetivo IV
-Con permisos de root, modificamos el archivo /etc/crontab añadiendole una nueva orden para poder ejecutar procesos en segundo plano cada hora. El resultado se muestra en la siguiente imagen.
+Con permisos de root, modificamos el archivo /etc/crontab añadiendole una nueva orden para poder ejecutar procesos en segundo plano cada hora. El resultado se muestra en la siguiente imagen.  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/9.png)  
