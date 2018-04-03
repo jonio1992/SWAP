@@ -22,25 +22,38 @@ Una vez instalado procedemos al objetivo uno, conexión SSH:
 Levantar ssh-> sudo /etc/init.d/ssh start  
 Conectarse-> ssh user@ipUser  
 
-objetivo1 img 1,2,3  
+### Objetivo I
+
+Se van 
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/1.png)  
 
-![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/2.png)
+![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/2.png)  
 
-![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/3.png)
+![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/3.png)  
 
-objetivo 2 img 4,5  nos clonamos de la maquina 2 a la 1, ojo los comandos se hacen en la maquina 1
-![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/4.png)
+### Objetivo II
+Para el clonado de archivos y directorios de una máquina a otra, usamos el comando 'rsync'.
+Voy a clonar de la maquina 2 a la 1, **ATENCIÓN**, los comandos se hacen en la maquina 1.
+Se muestra un ejemplo:  
+![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/4.png)  
 
-![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/5.png)
+Como se sabe de la documentación de la sesión 1, pru2.html pertenece a la maquina SWAP2, con lo que se ha clonado con exito en la maquina SWAP1. Instantanea mostrandolo:  
+![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/5.png)  
 
-objetivo 3  img 6,7 creando accesos sin clave
+### Objetivo III Creando accesos ssh sin clave  
 
-![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/6.png)
+Tenemos que crear la clave publica y privada para la conecxión a la otra maquina sin necesidad de clava con el comando :  
+ssh-keygen -b 4096 -t rsa  
 
-![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/7.png)
 
-objetivo 4  img 9
+![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/6.png)  
 
-![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/9.png)
+Para decirle a la otra maquina quienes somos, usamos el siguiente comando:  
+ssh-copy-id "nombremaquina@ipmaquina".
+
+![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/7.png)  
+
+### Objetivo IV
+Con permisos de root, modificamos el archivo /etc/crontab añadiendole una nueva orden para poder ejecutar procesos en segundo plano cada hora. El resultado se muestra en la siguiente imagen.
+![img](https://github.com/jonio1992/SWAP/blob/master/practica2/img/9.png)  
