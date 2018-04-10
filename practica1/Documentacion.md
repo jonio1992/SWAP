@@ -5,8 +5,8 @@
 ###### Autores: Antonio Carrasco Castro, Fernado Roldán Zafra  
 
 ## Objetivos 
-I. Acceder por ssh de una máquina a otra  
-II. Acceder mediante la herramienta curl desde una máquina a la otra  
+I. Acceder por ssh de una máquina a otra.  
+II. Acceder mediante la herramienta curl desde una máquina a la otra.  
 
 ## -Pasos previos  
 * **(Instalación de software y máquinas)**  
@@ -24,12 +24,14 @@ Dejo un posible tutorial facilitado en el guión a seguir:
 
 [Referencia instalar LAMP](https://www.unixmen.com/how-to-install-lamp-stack-on-ubuntu-16-04/)  
 
-## -Sesión 1  
+## -Sesión 1 
 Una vez instalado procedemos al objetivo uno, conexión SSH:
 
 ### Nota ###  
 Levantar ssh-> sudo /etc/init.d/ssh start  
 Conectarse-> ssh user@ipUser  
+
+### Objetivo I  Acceder por ssh de una máquina a otra.
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/1.png)  
 Levantando el servicio ssh de la maquina swap1 y visualizando su ip.
@@ -38,8 +40,10 @@ Levantando el servicio ssh de la maquina swap1 y visualizando su ip.
 Levantando el servicio ssh de la maquina swap2 y visualizando su ip.
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica1/img/3.png)  
-Conectándonos desde el PC anfitrión a las maquinas mediante el protocolo SSH.
 
+### Objetivo II Conectándonos desde el PC anfitrión a las maquinas mediante el protocolo SSH.
+
+Acceder mediante la herramienta curl desde una máquina a la otra.
 Para el objetivo dos se va a generar un archivo .html el cual se pondrá en el directorio var/www/sesion1.  
 Procedemos a ver las direcciones ip de cada máquina.  
 
