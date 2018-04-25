@@ -93,6 +93,6 @@ En mi caso estaba teniendo problemas con que tenía peticiones con estado failed
 
 Los test se han ejecutado en un ordenador sobremesa con algo mejor de CPU y tuve que cambiar las ip que ya que cambiaban de mi portatil al sobremesa en las maquinas virtuales.
 
-Me ha salido que el test con los mismo parametros de carga y concurrencia, nginx es más rápido que haproxy sirviendo la carga de peticiones. También hay que recalcar que los tiempo de establecer la conecxión, tiempo necesario para servir una respuesta, y tiempo para obtener los primeros bit de la respuesta son menores en nginx que en haproxy aunque vemos que haproxy es menor en media de peticiones atendidas por segundo, aunque casi similar entre los dos balanceadores. Conclusión, me quedaría con nginx.
+Me ha salido que el test con los mismo parametros de carga y concurrencia, nginx es más rápido que haproxy realizando el test. También hay que recalcar que los tiempo de establecer la conecxión, tiempo necesario para servir una respuesta, y tiempo para obtener los primeros bit de la respuesta son menores en nginx que en haproxy aunque vemos que haproxy es menor en media de peticiones atendidas por segundo, aunque casi similar entre los dos balanceadores. Conclusión, me quedaría con nginx.
 
 
