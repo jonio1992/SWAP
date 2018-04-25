@@ -85,11 +85,11 @@ En mi caso estaba teniendo problemas con que tenía peticiones con estado failed
  Esta opción es para cuando se tiene paginas dinámicas, que en mi caso supongo que pasa porque el mensaje de carga de index.html que hay en cada máquina servidora cambia y por eso existe este error.
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica3/img/nginx.png)  
-** test ab para nginx **
+**test ab para nginx**
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica3/img/haproxy.png)  
 
-** test ab para haproxy **
+**test ab para haproxy**
 
 Los test se han ejecutado en un ordenador sobremesa con algo mejor de CPU y tuve que cambiar las ip que ya que cambiaban de mi portatil al sobremesa en las maquinas virtuales.
 
