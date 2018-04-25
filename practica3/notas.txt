@@ -1,0 +1,20 @@
+curl http://192.168.196.130
+
+ab -n 1000 -c 10 http://192.168.196.130/index.html
+
+/etc/init.d/haproxy status
+
+/etc/init.d/nginx status
+
+sudo nmap -sT -O localhost
+
+
+/etc/nginx/conf.d/default.conf
+
+
+/etc/haproxy/haproxy.cfg
+
+https://stackoverflow.com/questions/6475692/investigating-apache-benchmark-failed-request
+
+sudo apt install apache2-util
+
