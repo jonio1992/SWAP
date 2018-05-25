@@ -26,22 +26,39 @@ Acciones balanceador  -> /etc/init.d/{haproxy, nginx} {start, status, stop}
 ### Objetivo I Crear una BD con al menos una tabla y algunos datos.
 
 
-
+Vamos a conectarnos a mysql con el siguiente comando, habra que ponerle una contraseña, aunque durante la instalación ya se la puse:  
+ mysql -uroot -p
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/1.png)  
 
+Necesitamos crear una nueva base de datos con la que trabajar, para ello se ejecutan los siguientes comandos:  
+create database contactos;  
+create table datos(nombre varchar(100),tlf int);  
+show tables;  
+Y con esto tenemos una tabla con un varchar para el nombre y un entero para el tlf a almacenar.  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/2.png)  
+
+Ahora para insertar datos en nuestra tabla, con el siguiente orden:  
+insert into datos(nombre,tlf) values ("user",99999999);  
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/3.png)  
 
 ### Objetivo II Clonar manualmente BD entre máquinas.
+Necesitamos bloquear la BD para que no se pueda actualizar mientras hacemos el clonado  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/4.png)  
+
+Ahora utilizamos mysqldump para guardar los datos, desde la primera máquina realizamos y desbloqueamos la BD:  
 
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/5.png)  
 
+Desde la maquina swap2 hacemos un scp del archivo .sql para hacer el copiado manual de una maquina a otra:  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/6.png)  
+
 ### Objetivo III Configurar la estructura maestro-esclavo entre dos máquinas para realizar el clonado automático de la información.
+
+Debemos crear (en mi caso), otra BD en la maquina SWAP2, ya que debe existir para saber donde importar el archivo .sql recuperado en el objetivo anterior  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/7.png)  
 
+Se muestra una captura de que el copiado del archivo .sql es correcto con los usuarios creados desde SWAP1 en datos para la BD contactos:  
 ![img](https://github.com/jonio1992/SWAP/blob/master/practica5/img/8.png)  
 
 
